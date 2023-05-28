@@ -1,4 +1,4 @@
-package com.employee.homework2_7.exception;
+package homework.homework2_8.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

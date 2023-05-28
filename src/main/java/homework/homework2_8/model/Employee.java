@@ -1,4 +1,4 @@
-package com.employee.homework2_7.model;
+package homework.homework2_8.model;
 
 import java.util.Objects;
 
