@@ -10,9 +10,11 @@ public class Employee {
     private Integer department;
     private double salary;
 
+    //StringUtils.capitalize(firstName.toLowerCase())
+    //StringUtils.capitalize(lastName.toLowerCase())
     public Employee(String firstName, String lastName, Integer department, double salary) {
-        this.firstName = StringUtils.capitalize(firstName.toLowerCase());
-        this.lastName = StringUtils.capitalize(lastName.toLowerCase());
+        this.firstName = firstName;
+        this.lastName =lastName;
         this.department = department;
         this.salary = salary;
     }
@@ -34,7 +36,7 @@ public class Employee {
     }
 
     public String getFirstName() {
-        return firstName;
+        return StringUtils.capitalize(firstName.toLowerCase());
     }
 
     public void setFirstName(String firstName) {
@@ -42,7 +44,7 @@ public class Employee {
     }
 
     public String getLastName() {
-        return lastName;
+        return StringUtils.capitalize(lastName.toLowerCase());
     }
 
     public void setLastName(String lastName) {
