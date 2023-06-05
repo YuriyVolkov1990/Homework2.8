@@ -14,7 +14,6 @@ import java.util.Map;
 
 @Service
 public class EmployeeService {
-
     private static final int size_limit = 5;
     private final Map<String, Employee> employees = new HashMap<>(size_limit);
     public Collection<Employee> getAll() {

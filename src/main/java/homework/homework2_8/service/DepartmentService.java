@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 @Service
 public class DepartmentService {
     private final EmployeeService employeeService;
-
     public DepartmentService(EmployeeService employeeService) {
         this.employeeService = employeeService;
     }

@@ -18,7 +18,6 @@ public class Employee {
         this.department = department;
         this.salary = salary;
     }
-
     public void setDepartment(Integer department) {
         this.department = department;
     }
